@@ -8,15 +8,11 @@ import { Image } from "react-bootstrap";
 const Imag = React.lazy(() => import("./heading.js"));
 
 export default function Header() {
-  /*
-      <Suspense
-        fallback={<Spinner animation="border" variant="primary" />}
-      >
-        <Imag /> 
-        </Suspense>*/
   return (
     <div className="header-container">
-      <Imag />
+      <Suspense fallback={<Spinner animation="border" variant="primary" />}>
+        <Imag />
+      </Suspense>
       <Mynav />
 
       <div className="heading-container">
