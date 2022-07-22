@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <Fade bottom>
+    <Fade>
       <div className="header-container">
         <div className="heading-container">
           <h1>Best hotels for the best price</h1>

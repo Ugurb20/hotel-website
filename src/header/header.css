@@ -14,9 +14,3 @@
   height: 100%;
   flex-direction: column;
 }
-
-.my-spinner {
-  position: absolute;
-  left: 48%;
-  top: 20%;
-}
