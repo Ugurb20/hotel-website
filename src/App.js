@@ -4,11 +4,13 @@ import Row1 from "./rows/row1/row1";
 import Row2 from "./rows/row2/row2";
 import Footer from "./footer/footer";
 import React, { Suspense } from "react";
+import Mynav from "./header/nav/nav";
 const Header = React.lazy(() => import("./header/header.js"));
 
 function App() {
   return (
     <div className="App">
+      <Mynav />
       <Suspense
         fallback={
           <Spinner

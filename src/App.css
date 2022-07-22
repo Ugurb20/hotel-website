@@ -12,3 +12,9 @@
   color: #ffffff;
   opacity: 90%;
 }
+
+.my-spinner {
+  position: absolute;
+  left: 48%;
+  top: 20%;
+}
