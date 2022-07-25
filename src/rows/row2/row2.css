@@ -59,3 +59,35 @@
 figcaption {
   color: #757575;
 }
+
+@media screen and (max-width: 425px) {
+  .row2-container {
+    min-height: 500px;
+    max-height: 500px;
+  }
+  .row2-container {
+    flex-direction: column;
+  }
+  .column1-row2 {
+    display: none;
+  }
+  .column2-row2 {
+    overflow: hidden;
+
+    flex: 1;
+  }
+  .carousel-slider-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slide {
+    min-height: 550px;
+  }
+  .carousel-inner {
+    min-height: 500px;
+  }
+  .slider-container-col2 {
+    padding: 10% 5%;
+  }
+}

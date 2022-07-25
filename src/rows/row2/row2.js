@@ -35,9 +35,8 @@ export default function Row2() {
         <Fade left when={reveal}>
           <div className="column1-row2"></div>
         </Fade>
-
         <div className="column2-row2">
-          <Carousel style={{ height: "100%" }}>
+          <Carousel interval={null} style={{ height: "100%" }}>
             <Carousel.Item>
               <div className="carousel-slider-container">
                 <div className="slider-container-col1">

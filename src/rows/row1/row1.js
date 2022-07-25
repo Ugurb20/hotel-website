@@ -38,9 +38,11 @@ export default function Row1() {
             LOrem ergerag eragergeragear aergaerg ergerag erg er erg er gerg ea
             erge g ! AEWEF ef we wef ewfw Afwee aga egerr ergreg regerg ergreg.
           </p>
-          <a href="#" className="book-button">
-            Book now
-          </a>
+          <div className="button-wrapper">
+            <a href="#" className="book-button">
+              Book now
+            </a>
+          </div>
         </div>
       </Fade>
       <div className="column-row1-column2">

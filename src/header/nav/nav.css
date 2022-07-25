@@ -21,3 +21,13 @@
 .nav-bar {
   position: fixed;
 }
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    background: rgba(203, 241, 245, 0.8) !important;
+    width: 425px;
+  }
+  h1 {
+    font-weight: 600;
+  }
+}

@@ -46,3 +46,15 @@ h1 {
 .social-media * {
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 425px) {
+  .footer {
+    flex-direction: column;
+  }
+  .my-stack h1 {
+    font-size: 15px;
+  }
+  .social-media {
+    justify-content: center;
+  }
+}
